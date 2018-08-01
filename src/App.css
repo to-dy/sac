@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #27242E;
+  text-align: center;
+}
+
+.title {
+  font-family: Dosis;
+  font-size: 35px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  padding: 15px 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.doughnut {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6
+}
+
+.percentage {
+  position: absolute;
+  top: 28%;
+  left: 45%;
+  font-size: 36px;
+}
+
+.type {
+  position: absolute;
+  top: 49%;
+  left: 45.3%;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.negative_color {
+  color: #FF4566
+}
+
+.positive_color {
+  color: #31FE45
+}
+
+.neutral_color {
+  color: #EEBB03
+}
